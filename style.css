@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #1E1E1E;
+}
+
+.containar {
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+h3 {
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+input {
+    margin-top: 5px;
+    border: 1px solid #FFFFFF;
+    width: 300px;
+    padding: 5px 10px;
+    color: #FFFFFF;
+}
+
+label {
+    color: #FFFFFF;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#add-btn {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    padding: 5px 30px;
+    color: #000000;
+    border: none;
+}
+
+#success-message {
+    margin-top: 40px;
+
+}
+
+#error-message {
+    color: #FF4343;
+}
+
+#employee-list {
+    color: #FFFFFF;
+    margin-left: 10px;
+}
